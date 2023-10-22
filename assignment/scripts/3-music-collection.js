@@ -14,6 +14,14 @@ return newAlbum;
 }
 
 
+var album1 = addToCollection(myCollection,"Thriller","Michael Jackson",1982);
+var album2 = addToCollection(myCollection,"Damn","Kendrick Lamar", 2017);
+var album3 = addToCollection(myCollection,"2014 Forest Hills Drive", "J.Cole",2014);
+var album4 = addToCollection(myCollection,"Candy Rain", "Soul for Real",1995);
+var album5 = addToCollection(myCollection,"What's Going On", "Marvin Gaye",1971);
+var album6 = addToCollection(myCollection,"Abbey Road", "The Beatles",1969);
+
+
 
 
 
