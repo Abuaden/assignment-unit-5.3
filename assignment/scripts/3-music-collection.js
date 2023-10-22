@@ -29,6 +29,11 @@ console.log(album5);
 console.log(album6);
 console.log(myCollection);
 
+function showCollection(collection){
+  for(var i = 0; i<collection.length; i++){
+    var album = collection[i];
+    console.log(album.title + album.artist + album.yearPublished);
+  }
 
 
 
