@@ -1,40 +1,38 @@
 console.log('***** Music Collection *****')
 // Safe Zone -- Write code below this line
 
-var myCollection = [];
-function addToCollection(collection,title,artist,yearPublished){
-  var newAlbum= {
-    title: title,
-    artist: artist,
-    yearPublished: yearPublished
+let myCollection = [];
+function addToCollection(title,artist,yearPublished){
+  let newAlbum= {
+    title,
+    artist,
+   yearPublished
   };
 
 collection.push(newAlbum);
 return newAlbum;
 }
 
-
-var album1 = addToCollection(myCollection,"Thriller","Michael Jackson",1982);
-var album2 = addToCollection(myCollection,"Damn","Kendrick Lamar", 2017);
-var album3 = addToCollection(myCollection,"2014 Forest Hills Drive", "J.Cole",2014);
-var album4 = addToCollection(myCollection,"Candy Rain", "Soul for Real",1995);
-var album5 = addToCollection(myCollection,"What's Going On", "Marvin Gaye",1971);
-var album6 = addToCollection(myCollection,"Abbey Road", "The Beatles",1969);
-
-console.log(album1);
-console.log(album2);
-console.log(album3);
-console.log(album4);
-console.log(album5);
-console.log(album6);
+addToCollection(myCollection,"Thriller","Michael Jackson",1982);
+addToCollection(myCollection,"Damn","Kendrick Lamar", 2017);
+addToCollection(myCollection,"2014 Forest Hills Drive", "J.Cole",2014);
+addToCollection(myCollection,"Candy Rain", "Soul for Real",1995);
+addToCollection(myCollection,"What's Going On", "Marvin Gaye",1971);
+addToCollection(myCollection,"Abbey Road", "The Beatles",1969);
 console.log(myCollection);
 
 function showCollection(collection){
-  for(var i = 0; i<collection.length; i++){
-    var album = collection[i];
+  for(let i = 0; i<collection.length; i++){
+     let album = collection[i];
     console.log(album.title + album.artist + album.yearPublished);
   }
+}
+function findByArtist(collection, artist){
+  let mat
+  for(let i =0; i<collection.length; i++){
 
+  }
+}
 
 
 
