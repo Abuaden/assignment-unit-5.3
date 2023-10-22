@@ -21,6 +21,16 @@ var album4 = addToCollection(myCollection,"Candy Rain", "Soul for Real",1995);
 var album5 = addToCollection(myCollection,"What's Going On", "Marvin Gaye",1971);
 var album6 = addToCollection(myCollection,"Abbey Road", "The Beatles",1969);
 
+console.log(album1);
+console.log(album2);
+console.log(album3);
+console.log(album4);
+console.log(album5);
+console.log(album6);
+console.log(myCollection);
+
+
+
 
 
 
